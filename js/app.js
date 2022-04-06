@@ -49,3 +49,13 @@ if(questionFive === 'yes' || questionFive === 'y'){
     alert('Please answer with a valid response!');
   }
 alert(`Wow, that was fun! Thanks for playing, ${siteVisitor}!`);
+
+let questionSix = prompt('How many dogs do I have? Take a guess!').toLowerCase();
+while (questionFive !== 4){
+  alert('You are correct! I was an extra in I Am Legend -though you will not be able to see me!');
+} else if (questionFive === 'no' || questionFive ==='n'){
+    alert('Sorry, that was a wrong guess.');
+  } else {
+    alert('Please answer with a valid response!');
+  }
+alert(`Wow, that was fun! Thanks for playing, ${siteVisitor}!`);

@@ -1,13 +1,14 @@
 body ,html{
   Align: justify;
-  max-width: 1000px;
+  max-width: 1050px;
   background-color: rgb(180, 179, 179);
-  margin: 5px;
-  padding:5px;
+  margin: 10px;
+  padding:10px;
 }
 
 header{
   background-color:#ccc;
+  border-style:solid black
   display: block;
   }
 
@@ -24,12 +25,14 @@ header{
       
         header ul li{
             display:inline-block;
-            padding: 0px 70px 0px 20px;
-            margin: 0px 20px 0px 0px;
+            padding: 0px 60px 0px 20px;
+            margin: 0px 10px 0px 0px;
             font-style: italic;
         }
 main {
   background-color: #ccc;
+  margin: 15px;
+  padding: 20px;
    }
 
   section.left img {

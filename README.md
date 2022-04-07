@@ -23,10 +23,10 @@
 @ Convert your work experience and education summary into an unordered list using HTML
 
 2. As a user, I would like to be guided to an answer through a series of feedback responses so that I can learn more about the site owner.
-* Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
-* Indicates through an alert if the guess is “too high” or “too low”.
-* It should give the user exactly four opportunities to get the correct answer.
-* After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
+@ Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
+@ Indicates through an alert if the guess is “too high” or “too low”.
+@ It should give the user exactly four opportunities to get the correct answer.
+@ After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
 
 3. As a user, I would like to guess the answer to a question that could have many possibilities so that I can have fun with with a guessing game.
 * Add a 7th question that has multiple possible correct answers that are stored in an array.

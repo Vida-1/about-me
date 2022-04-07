@@ -4,12 +4,14 @@
 
 -This is a lab to test just how much you know (or don't know) about me via a guessing game. Enjoy!
 
-### Author: Vida P.
+### Author: Vida P
 
 ### Links & Resources
+
 - This heavily founded on code written by 201 instructor, Audrey Patterson.
 
 ### Reflections
+
 - I'm looking forward to seeing what the week brings in terms of additional functionality!
 
 // ## Lab 02
@@ -39,3 +41,14 @@
 * Keep track of the total number of correct answers. At the end tell them how many they got correct out of the 7 questions asked. 
 
 -->
+
+## Lab 04
+
+## Pair Programming - Session 1
+
+Vida and Guy worked on this code together.
+
+### Authors
+
+- Vida P. (Navigator)
+- Guy Farley (Driver)

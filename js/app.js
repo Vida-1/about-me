@@ -17,7 +17,6 @@ function q1() {
 q1();
 
 function q2() {
-
   let questionTwo = prompt('Do I ride a motorcycle?').toLowerCase();
   if (questionTwo === 'yes' || questionTwo === 'y') {
     alert('Yes I do! Any Honda riders in the house?! VROOM!!');
@@ -29,14 +28,17 @@ function q2() {
 }
 q2();
 
-let questionThree = prompt('Do I have a pet snake?').toLowerCase();
-if (questionThree === 'yes' || questionThree === 'y') {
-  alert('Well, I guess you do not know me as well as you think!');
-} else if (questionThree === 'no' || questionThree === 'n') {
-  alert('That is correct! I will have none of that nonsense!');
-} else {
-  alert('Please answer with a valid response!');
+function q3() {
+  let questionThree = prompt('Do I have a pet snake?').toLowerCase();
+  if (questionThree === 'yes' || questionThree === 'y') {
+    alert('Well, I guess you do not know me as well as you think!');
+  } else if (questionThree === 'no' || questionThree === 'n') {
+    alert('That is correct! I will have none of that nonsense!');
+  } else {
+    alert('Please answer with a valid response!');
+  }
 }
+q3();
 
 let questionFour = prompt('Have I been to Darnassus?').toLowerCase();
 if (questionFour === 'yes' || questionFour === 'y') {

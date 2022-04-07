@@ -52,15 +52,18 @@ function q4() {
 }
 q4();
 
-let questionFive = prompt('Have I ever been in a movie?').toLowerCase();
-if (questionFive === 'yes' || questionFive === 'y') {
-  alert('You are correct! I was an extra in I Am Legend -though you will not be able to see me!');
-} else if (questionFive === 'no' || questionFive === 'n') {
-  alert('Sorry, that was a wrong guess.');
-} else {
-  alert('Please answer with a valid response!');
+function q5() {
+  let questionFive = prompt('Have I ever been in a movie?').toLowerCase();
+  if (questionFive === 'yes' || questionFive === 'y') {
+    alert('You are correct! I was an extra in I Am Legend -though you will not be able to see me!');
+  } else if (questionFive === 'no' || questionFive === 'n') {
+    alert('Sorry, that was a wrong guess.');
+  } else {
+    alert('Please answer with a valid response!');
+  }
+  alert(`Wow, that was fun! Thanks for playing, ${siteVisitor}!`);
 }
-alert(`Wow, that was fun! Thanks for playing, ${siteVisitor}!`);
+q5();
 
 let myNumber = 4;
 

@@ -65,20 +65,23 @@ function q5() {
 }
 q5();
 
-let myNumber = 4;
+function q6() {
+  let myNumber = 4;
 
-let questionSix = prompt(`How many dogs do I have? Take a guess! (0-10)`);
-let guesses = 0;
+  let questionSix = prompt(`How many dogs do I have? Take a guess! (0-10)`);
+  let guesses = 0;
 
-while (questionSix != myNumber && guesses < 3) {
-  if (questionSix > myNumber) {
-    questionSix = prompt('No, not that many, try again!')
-    guesses = guesses + 1;
-  } else if (questionSix < myNumber) {
-    questionSix = prompt(`No, I have more than ${questionSix}. Try again!`)
-    guesses = guesses + 1;
+  while (questionSix != myNumber && guesses < 3) {
+    if (questionSix > myNumber) {
+      questionSix = prompt('No, not that many, try again!')
+      guesses = guesses + 1;
+    } else if (questionSix < myNumber) {
+      questionSix = prompt(`No, I have more than ${questionSix}. Try again!`)
+      guesses = guesses + 1;
+    }
   }
 }
+q6();
 
 if (questionSix != 4) {
   alert(`No, but that's enough guessing. Why don't I just tell you: I have FOUR furkids!`)

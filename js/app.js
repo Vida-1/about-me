@@ -40,14 +40,17 @@ function q3() {
 }
 q3();
 
-let questionFour = prompt('Have I been to Darnassus?').toLowerCase();
-if (questionFour === 'yes' || questionFour === 'y') {
-  alert('Elune-Adore! You are correct!');
-} else if (questionFour === 'no' || questionFour === 'n') {
-  alert('Sorry, that was a wrong guess.');
-} else {
-  alert('Please answer with a valid response!');
+function q4() {
+  let questionFour = prompt('Have I been to Darnassus?').toLowerCase();
+  if (questionFour === 'yes' || questionFour === 'y') {
+    alert('Elune-Adore! You are correct!');
+  } else if (questionFour === 'no' || questionFour === 'n') {
+    alert('Sorry, that was a wrong guess.');
+  } else {
+    alert('Please answer with a valid response!');
+  }
 }
+q4();
 
 let questionFive = prompt('Have I ever been in a movie?').toLowerCase();
 if (questionFive === 'yes' || questionFive === 'y') {

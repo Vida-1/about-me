@@ -92,6 +92,7 @@ function q6() {
 }
 q6();
 
+
 let numberTries = 0;
 
 let myArray = ['haden', 'hamilton', 'hank', 'hans', 'hansel', 'harley', 'harold', 'harper', 'harris', 'harrison', 'harry', 'harvey', 'hatcher', 'haven', 'hawk', 'hawkins', 'hayden', 'heath', 'hector', 'henderson', 'hendrick', 'hendrik', 'henley', 'henry', 'herbert', 'herman', 'hero', 'hershel', 'hershy', 'heston', 'hezekiah', 'hiram', 'hiro', 'hogan', 'holden', 'holt', 'honor', 'howard', 'hudson', 'hugh', 'hugo', 'hunter', 'huxley'];

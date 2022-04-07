@@ -16,14 +16,18 @@ function q1() {
 }
 q1();
 
-let questionTwo = prompt('Do I ride a motorcycle?').toLowerCase();
-if (questionTwo === 'yes' || questionTwo === 'y') {
-  alert('Yes I do! Any Honda riders in the house?! VROOM!!');
-} else if (questionTwo === 'no' || questionTwo === 'n') {
-  alert('Sorry, that was a wrong guess.');
-} else {
-  alert('Please answer with a valid response!');
+function q2() {
+
+  let questionTwo = prompt('Do I ride a motorcycle?').toLowerCase();
+  if (questionTwo === 'yes' || questionTwo === 'y') {
+    alert('Yes I do! Any Honda riders in the house?! VROOM!!');
+  } else if (questionTwo === 'no' || questionTwo === 'n') {
+    alert('Sorry, that was a wrong guess.');
+  } else {
+    alert('Please answer with a valid response!');
+  }
 }
+q2();
 
 let questionThree = prompt('Do I have a pet snake?').toLowerCase();
 if (questionThree === 'yes' || questionThree === 'y') {

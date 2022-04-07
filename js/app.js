@@ -80,15 +80,17 @@ function q6() {
       guesses = guesses + 1;
     }
   }
+
+
+
+  if (questionSix != 4) {
+    alert(`No, but that's enough guessing. Why don't I just tell you: I have FOUR furkids!`)
+  }
+  else {
+    alert(`That's correct! I have four furkids!`);
+  }
 }
 q6();
-
-if (questionSix != 4) {
-  alert(`No, but that's enough guessing. Why don't I just tell you: I have FOUR furkids!`)
-}
-else {
-  alert(`That's correct! I have four furkids!`);
-}
 
 let numberTries = 0;
 

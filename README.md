@@ -1,54 +1,47 @@
 # about-me lab
 
 ## Lab 02
+      This is a lab to test just how much you know (or don't know) about me via a guessing game. Enjoy!
 
--This is a lab to test just how much you know (or don't know) about me via a guessing game. Enjoy!
+      ### Author: Vida P.
 
-### Author: Vida P
+      ### Links & Resources
+      This is heavily founded on code written by 201 instructor, Audrey Patterson.
 
-### Links & Resources
 
-- This heavily founded on code written by 201 instructor, Audrey Patterson.
+## Lab 03
+      ### This lab adds the folllowing features.....
+      * Create a “Top Ten” at the bottom of your HTML page as an ordered list in HTML
+      * Convert your work experience and education summary into an unordered list using HTML
+
+      * Guide user to an answer through a series of feedback responses to learn more about the site owner.
+      * Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
+      * Indicates through an alert if the guess is “too high” or “too low”.
+      * It should give the user exactly four opportunities to get the correct answer.
+      * After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
+
+      * Add a 7th question that has multiple possible correct answers that are stored in an array.
+      * Give the user 6 attempts to guess the correct answer.
+      * The guesses will end once the user guesses a correct answer or they run out of attempts.
+      * Display all the possible correct answers to the user. 
+      * Keep track of the total number of correct answers & at the end tell how many they got correct out of the 7 questions asked. 
+ 
+
+## Lab 04 -Pair Programming - Session 1
+
+  #### This lab adds the folllowing features.....
+      * Encapsulation of questions 1 - 7 within functions
+      * Function calls for each question
+
+  #### Authors 
+      Vida and Guy worked on this code together.
+      - Vida P. (Navigator)
+      - Guy Farley (Driver)
 
 ### Reflections
-
-- I'm looking forward to seeing what the week brings in terms of additional functionality!
-
-// ## Lab 02
-
-// This lab adds teh folllowing features.....
-
-<!-- 
-1. As a user, I would like to view a series of data related to the site owners interest so that the I can quickly view more information about them.
-@ Create a “Top Ten” at the bottom of your HTML page as an ordered list in HTML. Some ideas that you can include could be top ten movies, top ten favorite places, or top ten places to visit.
-
-@ Convert your work experience and education summary into an unordered list using HTML
-
-2. As a user, I would like to be guided to an answer through a series of feedback responses so that I can learn more about the site owner.
-@ Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
-@ Indicates through an alert if the guess is “too high” or “too low”.
-@ It should give the user exactly four opportunities to get the correct answer.
-@ After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
-
-3. As a user, I would like to guess the answer to a question that could have many possibilities so that I can have fun with with a guessing game.
-* Add a 7th question that has multiple possible correct answers that are stored in an array.
-* Give the user 6 attempts to guess the correct answer.
-* The guesses will end once the user guesses a correct answer or they run out of attempts.
-* Display all the possible correct answers to the user.
-* Consider using a loop of some sort for this question.
-
-4. As a user, I would like to know my final score so that I can know how well I did.
-* Keep track of the total number of correct answers. At the end tell them how many they got correct out of the 7 questions asked. 
-
--->
-
-## Lab 04
-
-## Pair Programming - Session 1
-
-Vida and Guy worked on this code together.
-
-### Authors
-
-- Vida P. (Navigator)
-- Guy Farley (Driver)
+Lab 02: I'm looking forward to seeing what the week brings in terms of additional functionality! 🙂
+Lab 03: Spent 7 hours on CSS minutiae, loops, and arrays. 😬
+Lab 04: This didn't take very long at all and working with classmates (Guy and Kyel) was a lot of fun. 😃
+Lab 05a: 
+Lab 05b:
+Lab 05c:
